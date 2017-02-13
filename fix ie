@@ -1,0 +1,9 @@
+It has bug on IE
+
+you should change 
+
+js/social-share.js 
+
+=> line 52 - initialized: true
+
+=> line 167   var qrcode =  [].slice.call(getElementsByClassName(elems[0], 'qrcode', 'div'));
